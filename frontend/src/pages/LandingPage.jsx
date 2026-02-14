@@ -48,6 +48,12 @@ const LandingPage = () => {
                     <div className="text-3xl font-bold text-slate-700 tracking-tight">
                         VAYU AI
                     </div>
+                    <button
+                        onClick={() => navigate('/login')}
+                        className="px-6 py-2 border border-slate-300 hover:border-blue-500 hover:text-blue-600 font-bold transition-all rounded-none"
+                    >
+                        LOGIN
+                    </button>
                 </header>
 
                 <motion.div
