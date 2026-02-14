@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-900: #1a1b26;
+  --color-dark-800: #24283b;
+  --color-dark-700: #414868;
+  --color-primary: #7aa2f7;
+  --color-secondary: #bb9af7;
+  --color-accent: #7dcfff;
+  --color-success: #9ece6a;
+  --color-warning: #e0af68;
+  --color-danger: #f7768e;
+}
+
+@layer base {
+  body {
+    @apply bg-dark-900 text-gray-100;
+  }
+}
+
+.card {
+  @apply bg-dark-800 rounded-xl p-6 shadow-lg border border-dark-700;
+}
